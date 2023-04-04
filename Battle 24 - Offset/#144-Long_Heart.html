@@ -1,0 +1,43 @@
+<div class="vert"></div>
+<div class="edge">
+  <div class="semi-circle"> </div>
+</div>
+<div class="horiz"></div>
+<style>
+  body {
+    background: #62306D;
+  }
+  .vert {
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 75px;
+    height: 200px;
+    border-radius: 50px 50px 0px 0px ;
+    background: #F7EC7D;
+  }
+  .horiz {
+    position: fixed;
+    left: 75; bottom: 0;
+    width: 125px;
+    height: 75px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F7EC7D;
+  }
+  .edge {
+    position: absolute;
+    background: #F7EC7D;
+    width: 25px;
+    height: 25px;
+    bottom: 70px;
+    left: 75px;
+  }
+  .semi-circle {
+    position: relative;
+    background: #62306D;
+    overflow: hidden;
+    height: 25px;
+    width: 25px;
+    top: -5;
+    border-radius: 0% 0% 0% 100%; 
+  }
+</style>
